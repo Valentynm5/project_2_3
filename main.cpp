@@ -7,10 +7,12 @@ int main()
     int a;
     cout << "Enter a number";
     cin >> a;
-if (a % 2 == 0)
-{
-    cout << "Parne";
-}else {
-    cout << " Ne parne";
-}
+    if (a % 2 == 0)
+    {
+        cout << "even";
+    }
+    else
+    {
+        cout << "odd";
+    }
 }
